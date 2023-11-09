@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(192, 211, 237, 0.569);
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-family: "Jetbrains Mono";
+}
+
+.button {
+  margin-top: 10px;
+}
+
+html,
+body,
+.container.is-fluid,
+.columns.is-vcentered {
+  height: 100%;
+}
+
+.button,
+.select select {
+  font-family: "Poppins";
+  margin-right: 10px;
+}
+
+.select {
+  bottom: 6px;
+}

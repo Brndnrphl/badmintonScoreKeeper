@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+
+    <title>Score Keeper</title>
+  </head>
+  <body>
+    <div class="container is-fluid">
+      <div class="columns is-vcentered is-centered is-mobile">
+        <div
+          class="column is-6-desktop is-8-tablet is-flex is-justify-content-center is-align-items-center"
+        >
+          <div class="box has-background-black-ter">
+            <h1 class="title is-2 has-text-white">🏸<br>Score Keeper</h1>
+            <h1 class="title is-2 has-text-white">
+              <span class="scoreP1 has-text-info">0</span> to
+              <span class="scoreP2 has-text-danger">0</span>
+            </h1>
+            <h1 class="winMessage title is-3 has-text-success is-italic"></h1>
+            <div class="playingToSelection">
+              <h class="title is-4 has-text-white">Playing to:</h>
+              <div class="select is-normal is-rounded">
+                <select id="playingTo">
+                  <option value="15">15</option>
+                  <option value="21">21</option>
+                  <option value="29">29</option>
+                </select>
+              </div>
+            </div>
+            <button class="btnOne button is-info">+1 Player One</button>
+            <button class="btnReset button is-link">Reset</button>
+            <button class="btnTwo button is-danger">+1 Player Two</button>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
